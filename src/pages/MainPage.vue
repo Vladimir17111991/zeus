@@ -39,7 +39,7 @@ import Free from '../svg/Free.svg?component';
   display: block;
   height: 100%;
   background-color: #52098b;
-  background-image: url('./img/castle.png');
+  background-image: url('./../img/castle.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
