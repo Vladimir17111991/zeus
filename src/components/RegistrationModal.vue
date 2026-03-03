@@ -90,9 +90,9 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue';
 
-import Flag from '../img/svg/Flag.svg?component';
-import HidePassword from '../img/svg/HidePassword.svg?component';
-import ShowPassword from '../img/svg/ShowPassword.svg?component';
+import Flag from '../svg/Flag.svg?component';
+import HidePassword from '../svg/HidePassword.svg?component';
+import ShowPassword from '../svg/ShowPassword.svg?component';
 import ButtonComponent from './shared/Button/ButtonComponent.vue';
 import CaptionComponent from './shared/Caption/CaptionComponent.vue';
 import Checkbox from './shared/Checkbox/Checkbox.vue';

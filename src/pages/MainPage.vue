@@ -10,16 +10,16 @@
         <Free class="main-page__free-img" />
       </div>
       <div class="main-page__zeus">
-        <img :src="'src/img/zeus.webp'" alt="zeus" class="main-page__zeus-img" />
+        <img :src="'./src/assets/img/zeus.webp'" alt="zeus" class="main-page__zeus-img" />
       </div>
       <div class="main-page__triangle">
-        <img :src="'src/img/triangle.png'" alt="triangle" class="main-page__triangle-img" />
+        <img :src="'./src/assets/img/triangle.png'" alt="triangle" class="main-page__triangle-img" />
       </div>
       <div class="main-page__blue-cube">
-        <img :src="'src/img/blue-cube.webp'" alt="blue-cube" class="main-page__blue-cube-img" />
+        <img :src="'./src/assets/img/blue-cube.webp'" alt="blue-cube" class="main-page__blue-cube-img" />
       </div>
       <div class="main-page__gold-cube">
-        <img :src="'src/img/gold-cube.webp'" alt="gold-cube" class="main-page__gold-cube-img" />
+        <img :src="'./src/assets/img/gold-cube.webp'" alt="gold-cube" class="main-page__gold-cube-img" />
       </div>
       <div class="main-page__registration">
         <RegistrationModal class="main-page__registration-modal" />
@@ -30,7 +30,7 @@
 <script setup lang="ts">
 import RegistrationModal from '../components/RegistrationModal.vue';
 import CaptionComponent from '../components/shared/Caption/CaptionComponent.vue';
-import Free from '../img/svg/Free.svg?component';
+import Free from '../svg/Free.svg?component';
 </script>
 <style lang="scss">
 @use '/src/scss/globals' as *;
@@ -39,7 +39,7 @@ import Free from '../img/svg/Free.svg?component';
   display: block;
   height: 100%;
   background-color: #52098b;
-  background-image: url('../img/castle.png');
+  background-image: url('./src/assets/img/castle.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
