@@ -1,0 +1,12 @@
+@forward 'helpers/variables';
+@forward 'helpers/em';
+@forward 'helpers/media-query/include-media';
+@forward 'helpers/colors';
+@forward 'mixins/app-modifier';
+.app {
+    min-height: 100dvh;
+    @media (width <1440px) {
+        height: 100dvh;
+    }
+
+}
